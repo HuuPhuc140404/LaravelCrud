@@ -64,7 +64,7 @@
     <table class="table table-striped">
       <thead>
         <tr>
-          <th scope="col">ID</th>
+          {{-- <th scope="col">ID</th> --}}
           <th scope="col">Mã Sinh Viên</th>
           <th scope="col">Tên Sinh Viên</th>
           <th scope="col">Email</th>
@@ -76,7 +76,7 @@
       <tbody>
         @foreach ($all_users as $user)
           <tr>
-            <th scope="row">{{ $user->id }}</th>
+            {{-- <th scope="row">{{ $user->id }}</th> --}}
             <td>{{ $user->masv }}</td>
             <td>{{ $user->name }}</td>
             <td>{{ $user->email }}</td>
